@@ -3,8 +3,6 @@ import apiClient from "../services/api-client";
 import { AxiosRequestConfig, CanceledError } from "axios";
 
 
-
-
 interface FetchResponse<T>{
     cound: number,
     results: T[]
